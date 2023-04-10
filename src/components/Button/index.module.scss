@@ -1,0 +1,25 @@
+.primaryButton {
+  display: inline-flex;
+  box-sizing: border-box;
+  align-items: center;
+  background: #1c1f23;
+  border: 3px solid #1c1f23;
+  border-radius: 10px;
+  width: 332px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  .buttonIcon {
+    display: inherit;
+    transition: all 0.5 ease-out;
+  }
+}
+.primaryButton:hover {
+  .buttonIcon {
+    transform: rotate(360deg);
+  }
+}
